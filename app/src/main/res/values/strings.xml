@@ -2,4 +2,5 @@
     <string name="app_name">Mega Trust Jobs App</string>
     <string name="welcomeText">Welcome to Mega Trust Jobs</string>
     <string name="startText">Start</string>
+    <string name="api_key">https://jobs.github.com/positions.json?description=api</string>
 </resources>
