@@ -1,4 +1,4 @@
-package com.example.megatrustjobsapp.view
+package com.example.megatrustjobsapp.ui.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

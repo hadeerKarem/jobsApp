@@ -1,17 +1,14 @@
 package com.example.megatrustjobsapp.viewmodel
 
 import android.content.Intent
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.LayoutRes
 import androidx.recyclerview.widget.RecyclerView
 import com.example.megatrustjobsapp.R
-import com.example.megatrustjobsapp.view.JobDetailsActivity
-import com.example.megatrustjobsapp.view.JobsActivity
+import com.example.megatrustjobsapp.ui.view.JobDetailsActivity
 import kotlinx.android.synthetic.main.recyclerview_item_row.view.*
-import org.w3c.dom.Text
 
 class RecyclerViewAdapter(private val jobsArrayList: ArrayList<String>)
     : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>(){
